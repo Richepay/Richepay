@@ -1,16 +1,125 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Richepromo</title>
 
-<!--
-**Richepay/Richepay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+    }
 
-Here are some ideas to get you started:
+    header {
+      padding: 30px 20px;
+      background: #111;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 50px;
+      font-weight: bold;
+      color: #ffcc00;
+      text-shadow: 2px 2px 5px #000;
+      margin-bottom: 15px;
+    }
+
+    h1, h2 {
+      color: #ffcc00;
+    }
+
+    p {
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #1ebe5d;
+    }
+
+    section {
+      padding: 25px 20px;
+    }
+
+    footer {
+      background: #000;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="logo">Richepromo</div>
+    <nav>
+      <a href="#home">Akèy</a>
+      <a href="#services">Sèvis</a>
+      <a href="#contact">Kontakte</a>
+      <a href="#gallery">Galeri</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Richepromo</h1>
+    <p>Fèt pou siksè!</p>
+    <a class="btn" href="https://wa.me/50942768283" target="_blank"> WhatsApp</a>
+    <a class="btn" href="https://www.tiktok.com/@ti_riche_promo" target="_blank"> TikTok</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Sèvis nou yo</h2>
+    <p>• Promotion mizik</p>
+    <p>• Publicité & Marketing</p>
+    <p>• Medya & Magazin</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Kontakte nou</h2>
+    <p> Email: richepromo1@gmail.com</p>
+    <p> WhatsApp: +509 4276 8283</p>
+    <a class="btn" href="https://wa.me/50942768283" target="_blank">Chat WhatsApp</a>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Galeri / Mizik / Magazin</h2>
+    <p>Pèmèt nou mete foto, videyo ak mizik ou pita.</p>
+  </section>
+
+  <footer>
+    © 2026 Richepromo — Tout dwa rezève
+  </footer>
+
+</body>
+</html>
